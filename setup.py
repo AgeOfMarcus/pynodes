@@ -5,7 +5,7 @@ def read(fname):
 	return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setuptools.setup(name='pynodes',
-	version='0.0.1',
+	version='0.0.2',
 	description='A python library to simplify nodes and finding peers on the same network.',
 	long_description=read("README.md"),
 	url='https://github.com/AgeOfMarcus/pynodes',
