@@ -1,5 +1,5 @@
-import pynodes
-from ext import santi
+from pynodes import pynodes
+from pynodes.ext import santi
 import argparse, _thread
 
 def parse_args():

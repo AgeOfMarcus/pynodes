@@ -1,4 +1,4 @@
-from ext import santi
+from pynodes.ext import santi
 import socket, _thread
 
 class Node(object):
